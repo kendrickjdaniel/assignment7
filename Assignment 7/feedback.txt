@@ -1,0 +1,25 @@
+Use media queries at a 768px breakpoint
+ - Good!
+As a user changes the size of a browser window:
+
+Content remains in appropriate divs
+ - Good!
+Content remains visible to the user
+ - Your menus have some visibility problems at smaller sizes. Switching to a hamburger menu for mobile displays can help
+ - Hiding the #sidebar element prevents a crampled layout in the blog, but you also could have switched to a vertical layout instead of hiding it entirely.
+ - Your "#benfits ul" styling stays at hard coded pixel width, which causes some display problems on smaller screens. Changing this to a percent based width could solve this.
+Fonts change size appropriately
+ - Changing the size of headers and logo text can save space and look nicer on smaller displays. The hero text on the langing page would have been a good candidate for this.
+Margins and padding change size appropriately
+ - Good!
+Content does not overlap
+ - Good!
+In the blog section, the two-column layout changes to a single-column layout when appropriate
+ - Good!
+
+Additional Comments:
+ - Nice job fixing padding/margins and updating most of the site to percentage based widths.
+
+ - The hard coded pixel width benefits section is causing some display problems. Text there could be made smaller and some of it could probably be removed entirely.
+
+ - Don't forget to reduce the size of header text for mobile display. As is the blog headlines span several lines and take up most of the screen on mobile displays.
